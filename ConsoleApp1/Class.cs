@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Class1
+    enum WeaponClass
     {
+        Missile,
+        Melee,
+        Ranged,
+        Magic,
+        Explosive
+
     }
 }
